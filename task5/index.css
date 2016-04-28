@@ -1,0 +1,102 @@
+* {
+    padding:0px;
+    margin:0px;
+    font-size: 18px;
+}
+html,body
+{
+    width:100%;
+    height:100%;
+    min-width: 320px;
+}
+.bluediv
+{
+    background-color:rgb(95,192,205);
+    position: relative;
+    height:40px;
+}
+.bg-img
+{
+    background-image: url("./images/backG.jpg");
+    background-size: cover;
+    height:320px;
+    position: relative;
+}
+.head
+{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    position: absolute;
+    background-image: url("./images/half.png");
+    background-repeat: no-repeat;
+
+}
+.jineng
+{
+/*    position: relative;  */
+
+    clear:both;
+    height:40%;
+ /*  width:100%;
+    height:100%;
+    */
+}
+
+.neirong
+{
+    position: absolute;
+left:10%;
+   width:90%;
+}
+
+
+
+.juzhong
+{
+    text-align:center;
+    height:1rem;
+    line-height: 50px;
+}
+li
+{
+
+    border-color:rgb(215,203,216);
+    border-style: solid;
+    border-width:1px;
+    height:3rem;
+    line-height:3rem;
+    border-left-width:0px;
+
+
+}
+.p1
+{
+
+    border-color:rgb(215,203,216);
+    border-right-style: solid;
+    border-right-width:1px;
+    line-height:3rem;
+
+
+}
+.lianxi
+{
+    width:60%;
+    height:70px;
+    min-width:200px;
+    background:darkgoldenrod;
+    left:0;right:0;
+    margin:auto;
+}
+.anniu
+{
+    width:30%;
+    height:100%;
+    min-width:200px;
+    height:50px;
+    border-radius: 5px;
+    float:left;
+    border-width:1px;
+    border-style: solid;
+}
